@@ -1,0 +1,75 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.kits
+    - essentials.kit
+    - essentials.spawn
+    - essentials.tpahere
+    - essentials.kits.starter
+    - essentials.signs.use.*
+    - modifyworld.*
+  Owner:
+    prefix: '&4&lOWNER &c'
+    inheritance:
+    - Admin
+  Admin:
+    prefix: '&c&lADMIN &c'
+    inheritance:
+    - GM
+  GM:
+    prefix: '&4&lGM &c'
+    inheritance:
+    - Mod 
+    permissions:
+    - permissions.*
+    - essentials.*
+    - nametagedit.*
+    - worldedit.*
+    - worldguard.*
+    - multiverse.*
+  Mod:
+    prefix: '&e&lMOD &e'
+    inheritance:
+    - Helper 
+    permissions:
+    - essentials.seen
+    - essentials.invsee
+    - essentials.tp
+    - essentials.tpo 
+    - essentials.vanish
+  Helper:
+    prefix: '&b&lHELPER &b'
+    inheritance:
+    - Youtuber
+  Youtuber:
+    prefix: '&c&lYoutube &e'
+    inheritance:
+    - Twitch
+  Twitch:
+    prefix: '&5&lTwitch &e'
+    inheritance:
+    - Hero
+  Hero:
+    prefix: '&d&lHERO &d'
+    inheritance:
+    - Knight
+    permissions:
+    - essentials.kits.hero
+  Knight:
+    prefix: '&3&lKNIGHT &3'
+    inheritance:
+    - Deity
+    permissions:
+    - essentials.kits.knight
+  Deity:
+    prefix: '&2&lDEITY &2'
+    inheritance:
+    - Default
+    permissions:
+    - essentials.kits.deity    
+schema-version: 1
