@@ -21,6 +21,8 @@ groups:
     prefix: '&c&lADMIN &c'
     inheritance:
     - GM
+    permissions:
+    - rank.admin
   GM:
     prefix: '&4&lGM &c'
     inheritance:
@@ -32,6 +34,7 @@ groups:
     - worldedit.*
     - worldguard.*
     - multiverse.*
+    - rank.srmod
   Mod:
     prefix: '&e&lMOD &e'
     inheritance:
@@ -42,34 +45,44 @@ groups:
     - essentials.tp
     - essentials.tpo 
     - essentials.vanish
+    - rank.mod
   Helper:
     prefix: '&b&lHELPER &b'
     inheritance:
     - Youtuber
+    permissions:
+    - rank.helper
   Youtuber:
     prefix: '&c&lYoutube &e'
     inheritance:
     - Twitch
+    permissions:
+    - rank.content
   Twitch:
     prefix: '&5&lTwitch &e'
     inheritance:
     - Hero
+    permissions:
+    - rank.content
   Hero:
     prefix: '&d&lHERO &d'
     inheritance:
     - Knight
     permissions:
     - essentials.kits.hero
+    - rank.d3
   Knight:
     prefix: '&3&lKNIGHT &3'
     inheritance:
     - Deity
     permissions:
     - essentials.kits.knight
+    - rank.d2
   Deity:
     prefix: '&2&lDEITY &2'
     inheritance:
     - Default
     permissions:
     - essentials.kits.deity    
+    - rank.d1
 schema-version: 1
