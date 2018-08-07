@@ -1,3 +1,4 @@
+# NOTE: Prefixes do not work in chat due to Core overriding chat.
 groups:
   default:
     options:
