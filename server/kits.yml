@@ -1,0 +1,49 @@
+kits:
+  Starter:
+    delay: 86400
+    items:
+    - 306:0 1 protection_environmental:1 name:§7Starter_Helmet
+    - 307:0 1 protection_environmental:1 name:§7Starter_Chestplate
+    - 308:0 1 protection_environmental:1 name:§7Starter_Leggings
+    - 309:0 1 protection_environmental:1 name:§7Starter_Boots
+    - 267:0 1 name:§7Starter_Sword
+    - 257:0 1 name:§7Starter_Pickaxe
+    - 258:0 1 name:§7Starter_Axe
+    - 256:0 1 name:§7Starter_Shovel
+    - 364:0 10
+  Hero:
+    delay: 86400
+    items:
+    - 306:0 1 protection_environmental:2 name:§dHero_Helmet
+    - 307:0 1 protection_environmental:2 name:§dHero_Chestplate
+    - 308:0 1 protection_environmental:2 name:§dHero_Leggings
+    - 309:0 1 protection_environmental:2 name:§dHero_Boots
+    - 276:0 1 damage_all:1 name:§dHero_Sword
+    - 278:0 1 dig_speed:1 name:§dHero_Pickaxe
+    - 279:0 1 dig_speed:1 name:§dHero_Axe
+    - 277:0 1 dig_speed:1 name:§dHero_Shovel
+    - 364:0 20
+  Lord:
+    delay: 86400
+    items:
+    - 310:0 1 protection_environmental:3 name:§aLord_Helmet
+    - 311:0 1 protection_environmental:3 name:§aLord_Chestplate
+    - 312:0 1 protection_environmental:3 name:§aLord_Leggings
+    - 313:0 1 protection_environmental:3 name:§aLord_Boots
+    - 276:0 1 damage_all:2 name:§aLord_Sword
+    - 278:0 1 dig_speed:2 name:§aLord_Pickaxe
+    - 279:0 1 dig_speed:2 name:§aLord_Axe
+    - 277:0 1 dig_speed:2 name:§aLord_Shovel
+    - 364:0 30
+  Godly:
+    delay: 86400
+    items:
+    - 310:0 1 protection_environmental:3 name:§6Godly_Helmet
+    - 311:0 1 protection_environmental:3 name:§6Godly_Chestplate
+    - 312:0 1 protection_environmental:3 name:§6Godly_Leggings
+    - 313:0 1 protection_environmental:3 name:§6Godly_Boots
+    - 276:0 1 damage_all:3 name:§6Godly_Sword
+    - 278:0 1 dig_speed:3 name:§6Godly_Pickaxe
+    - 279:0 1 dig_speed:3 name:§6Godly_Axe
+    - 277:0 1 dig_speed:3 name:§6Godly_Shovel
+    - 364:0 40
